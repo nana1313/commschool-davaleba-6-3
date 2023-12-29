@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: animate_half 8s;
+}
+@keyframes animate_half {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 95%;
+  }
+}
